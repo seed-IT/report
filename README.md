@@ -7,7 +7,6 @@ The content is:
 
 * Sprint reports
 * Schematics
-* Business plan
 
 ## Our Team
 
