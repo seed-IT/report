@@ -60,14 +60,21 @@ Nous rattrapons le retard dû par OVH.
 La partie front-end du site internet avance et nous profitons d'hors et déjà d'une structure d'inscription et connexion pour les utilisateurs.
 Une base de données se chargeant de cela est présente.
 
+Nous avons aussi mis en place l'environnement de dévéloppment Kotlin. Il est utilisé pour remplacer Java, car nous pouvons avoir les mêmes fonctionnalités mais avec beaucoup moins de lignes de code.
+
 ## Méthodologie et gestion d'équipe
 
 Pour la gestion de notre équipe, nous avons eu quelques entrevues et réunions afin d'avancer ensemble sur le projet, tout en travaillant la plupart du temps par plus petits groupes de 2 ou 3 personnes afin d'optimiser au mieux notre temps de travail.
+
+Chaque partie de l'équipe a reçu des taches à faire et des délais de réalisations. En fonction de l'avancement du Sprint précédent, nous savons apprécier beaucoup mieux le temps nécessaire pour les differentes taches.
 
 ## Analyse réflexive du fonctionnement du groupe
 
 Du point de vue technique nous avons finalisé la mise en place du VPS et avons entamé le gros du travail.
 Nous avons avancé sur le design et la structure du site web et planifions une finalisation complète courant du prochain Sprint.
+
+Le groupe est de plus en plus optimal et malgré le petit frein que nous avons eu au début du Sprint 1, nous avançons bien.
+Nous avons finalisé les choses que nous nous sommes proposé pour ce sprint. 
 
 \pagebreak
 
@@ -226,11 +233,23 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 ## Estimation de la vélocité de l'équipe
 
-## Forces et faiblesses du Sprint précédant et mesures prises
+La vélocité de l'équipe est en moyenne bonne, compte tenu de la charge de travail et des nombreux aspects RSE que nous voulons aborder et intégrer dans ce projet. La cohésion du groupe a encore certaines lacunes, car certaines pensées sont bien divergentes. Pour résoudre tout cela, nous avons mis en place des réunions plus longues, afin que tous les membres se mettent d'accord sur l'intégralité du projet et de son avenir.
+
+## Forces et faiblesses du sprint précédent et mesures prises 
 
 ### Forces
 
+L'ensemble de l'équipe utilise les outils demandés par le scrum master et cela évite beaucoup de mécontentements.
+La communication est améliorée grâce au partage des idées qui se fait obligatoirement après chaque session de travail.
+La vision étant très claire dans l'ensemble nous savons tous la finalité attendue.
+
 ### Faiblesses
+
+Lors de ce sprint nous avons rencontré certains soucis de vision et l'équipe est restée bloquée un temps considérable sur la manière dont la base de données sera construite, et sur la manière dont le service web interagirait avec cette dernière.
+
+L'utilisation des outils tel GitHub n'est pas spontané et doit être rappelée constamment à certains membres.
+
+Pour certaines réunions l'intégralité de l'équipe n'était pas réunie à cause des "oublis". Afin d'éviter de nouveau cette problématique, le scrum master communique à tous les membres, un jour à l'avant, l'heure et l'endroit du rendez-vous.
 
 \pagebreak
 
@@ -241,12 +260,15 @@ Pour le prochain Sprint, nous estimons les _Stories_ suivants :
 ## User Stories
 
 * En tant qu'utilisateur du site web (enregistré), j'ai la possibilité de déposer une offre d'échange de mes graines.
+* En tant qu'utilisateur du site web (enregistré ou pas), j'ai la possibilité de voir les régles RGPD du site.
+* En tant qu'utilisateur du site web (enregistré), j'ai la possibilité de voir l'êtat des graines d'autres membres PiMium.
 * En tant que visiteur du site web (enregistré), j’ai la possibilité de demander la suppression intégrale de mon compte comme la loi RGPD me le permet.
 * En tant que visiteur du site web (enregistré), j’ai la possibilité de demander une copie de toutes les informations de mon compte.
 * En tant que visiteur du site web (enregistré), j’ai la possibilité de souscrire à l’abonnement Premium, PiMium ou de résilier mon abonnement pour revenir à l’offre gratuite.
 * En tant que visiteur du site web (enregistré et gratuit), j’ai la possibilité d’effectuer 3 échanges de semences par mois.
 * En tant que visiteur du site web (enregistré et abonnement Premium), j’ai la possibilité d’effectuer 10 échanges de semences par mois.
 * En tant que visiteur du site web (enregistré et abonnement PiMium), j’ai la possibilité d’effectuer un nombre illimité de semences par mois et recevoir l’appareil de suivi de mon potager.
+
 
 ## Technical Stories
 
