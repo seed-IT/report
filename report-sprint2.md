@@ -153,6 +153,7 @@ Cela sera reglé pour le prochain Sprint.
 | Melvin | 07/10/2019 | 28 minutes | Comparaison des prix pour les composants entre les différents fournisseurs + Achat auprès de Banggood |
 | Melvin | 07/10/2019 | 30 minutes et 59 secondes | Mise à jour du DNS + ticket support (responsable technique avec droit de modification DNS ?) |
 | Filipp | 08/10/2019 | 1 heure | Mise en place des tables de la base de données |
+| Constantin | 08/10/2019 | 1 heure | RSE/Business Plan : analyse du marché - avantages et inconvénients |
 | Melvin | 09/10/2019 | 52 minutes et 12 secondes | Wiki : User Stories du projet au complet |
 | Constantin | 09/10/2019 | 5 minutes et 43 secondes | Création de la page Facebook |
 | Filipp | 09/10/2019 | 30 minutes et 2 secondes | Création du formulaire d'enquête en ligne sur le business plan |
@@ -163,8 +164,18 @@ Cela sera reglé pour le prochain Sprint.
 | Hubert | 10/10/2019 | 11 minutes et 54 secondes | Docker mariaDB |
 | Hymed | 10/10/2019 | 2 heures, 34 minutes et 41 secondes | HTML/CSS : Connexion et inscription (suite) |
 | Filipp | 10/10/2019 | 20 minutes | Recherche des couleurs pour mettre en place une palette de couleurs pour le site |
+| Melvin | 10/10/2019 | 45 minutes | Commencement du rapport de Sprint 2 |
+| Constantin | 11/10/2019 | 1 heure, 18 minutes et 36 secondes | Business Plan : Création d'un plan financier fiable |
 | Melvin | 12/10/2019 | 17 minutes et 47 secondes | CSS : correction d'un bogue lié à une résolution d'écran spécifique avec le Responsive Design |
+| Constantin | 12/10/2019 | 25 minutes et 51 secondes | Business Plan : stratégie commerciale |
 | Nathan | 13/10/2019 | 1 heure, 33 minutes | Essai d'implémentation de la base de données dans un service |
+| Nathan | 14/10/2019 | 1 heure, 56 minutes et 10 secondes | Importation de la base de données dans le service Docker |
+| Filipp | 15/10/2019 | 25 minutes | Informations sur le Docker de la base de données (documentation interne) |
+| Hubert | 16/10/2019 | 33 minutes et 13 secondes | Lancement de la base de données |
+| Nathan | 16/10/2019 | 35 minutes | Nouvelle importation de la base de données dans le service |
+| Filipp | 16/10/2019 | 2 heures, 15 minutes | Connexion de l'API lié à la base de données (interconnectivité base de données et site web) |
+| Constantin & Melvin | 16/10/2019 | 12 minutes et 31 secondes | Analyse du capteur Bosch pour la Raspberry Pi 4 |
+| Constantin & Melvin | 16/10/2019 | 1 heure | Finalisation du rapport de Sprint 2 |
 
 ## Réunions
 
@@ -221,10 +232,10 @@ Notre équipe n’est pas faite à base d’amitié mais à base de confiance, e
 |-------|------|-------|------|
 | Jaune | Vert | Rouge | Bleu |
 
-* Communication : Campos _(JV)_ - Product Owner
-* Equipe : Mirica _(BV)_ - Scrum Master
+* Communication : Melvin _(JV)_ - Product Owner
+* Equipe : Constantin _(BV)_ - Scrum Master
 * Marketing : Filipp _(JV)_
-* Web : Hoebar _(JV)_
+* Web : Antoine _(JV)_
 * IoT : Nathan _(VB)_
 * Virtualisation : Hymed _(RJ)_
 * Sécurité : Hubert _(V)_
@@ -235,7 +246,7 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 La vélocité de l'équipe est en moyenne bonne, compte tenu de la charge de travail et des nombreux aspects RSE que nous voulons aborder et intégrer dans ce projet. La cohésion du groupe a encore certaines lacunes, car certaines pensées sont bien divergentes. Pour résoudre tout cela, nous avons mis en place des réunions plus longues, afin que tous les membres se mettent d'accord sur l'intégralité du projet et de son avenir.
 
-## Forces et faiblesses du sprint précédent et mesures prises 
+## Forces et faiblesses du sprint précédent et mesures prises
 
 ### Forces
 
@@ -249,7 +260,8 @@ Lors de ce sprint nous avons rencontré certains soucis de vision et l'équipe e
 
 L'utilisation des outils tel GitHub n'est pas spontané et doit être rappelée constamment à certains membres.
 
-Pour certaines réunions l'intégralité de l'équipe n'était pas réunie à cause des "oublis". Afin d'éviter de nouveau cette problématique, le scrum master communique à tous les membres, un jour à l'avant, l'heure et l'endroit du rendez-vous.
+Pour certaines réunions l'intégralité de l'équipe n'était pas réunie à cause des "oublis".
+Afin d'éviter de nouveau cette problématique, le scrum master communique à tous les membres, un jour à l'avance, l'heure et l'endroit du rendez-vous.
 
 \pagebreak
 
@@ -269,17 +281,34 @@ Pour le prochain Sprint, nous estimons les _Stories_ suivants :
 * En tant que visiteur du site web (enregistré et abonnement Premium), j’ai la possibilité d’effectuer 10 échanges de semences par mois.
 * En tant que visiteur du site web (enregistré et abonnement PiMium), j’ai la possibilité d’effectuer un nombre illimité de semences par mois et recevoir l’appareil de suivi de mon potager.
 
-
 ## Technical Stories
 
+* TS : Finalisation du site web _(Sprint 3, 5 points)_
+  * _**Responsable :**_ Hymed Boussaklatan
+  * _**Description :**_ Finalisation des pages du site web
+  * _**Tâche :**_ Finalisation complète du site internet avec liaison vers la base de données et module de contact
+* TS : Finalisation de la base de données _(Sprint 3, 7 points)_
+  * _**Responsables :**_ Antoine Hoebaer, Nathan Henry, Filipp Shatskiy
+  * _**Description :**_ Finalisation de l'implémentation de la base de données
+  * _**Tâches :**_
+    * Finalisation de la création de la base de données,
+    * Intégration dans le service Docker spécifique à la base de données,
+    * Liaison avec le site web.
 * TS : Avancement du CSS du site web _(Sprint 3, 2 points)_
   * _**Responsable :**_ Melvin Campos Casares
   * _**Description :**_ Avancement sur la partie CSS du site web au fur et à mesure du développement des pages
   * _**Tâche :**_ Ajout des id et classes nécessaires pour les nouvelles pages implémentées
 * TS : Commencement de l'appareil de suivi _(Sprint 3, 10 points)_
-  * _**Responsable :**_ Constantin Mirica, Melvin Campos Casares
+  * _**Responsables :**_ Constantin Mirica, Melvin Campos Casares
   * _**Description :**_ Préparation de l'appareil et mis en place d'un outil de mesure simple
   * _**Tâches :**_
-    * Mise en place de Raspbian CLI sur la Raspberry Pi 4
-    * Ajout des librairies pour la compatibilité entre la Raspberry Pi et le capteur BME280 de Bosch
-    * Création d'un outil de mesure simple
+    * Mise en place de Raspbian CLI sur la Raspberry Pi 4,
+    * Ajout des librairies pour la compatibilité entre la Raspberry Pi et le capteur BME280 de Bosch,
+    * Création d'un outil de mesure simple.
+* TS : Diminution des écritures sur la mémoire de stockage de l'appareil de suivi _(Sprint 3, 3 points)_
+  * _**Responsable :**_ Melvin Campos Casares
+  * _**Description :**_ Afin d'accroître la durée de vie du stockage de la Raspberry Pi 4, les logs seront redirigé sur RAM et injecté sur le stockage à un rythme moins fréquent
+  * _**Tâches :**_
+    * Création du ramdisk et déplacement des logs sur RAM,
+    * Script de copie des logs sur RAM vers le stockage,
+    * Service executant le script avant extinction et redémarrage.
