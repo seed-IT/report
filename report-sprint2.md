@@ -42,11 +42,11 @@ Cet appareil sera peu encombrant et ne nécessitera que d'un câble d'alimentati
 
 Concernant ce projet, voici les liens et outils que nous nous servont :
 
-* _**GitHub**_ : <https://github.com/melvinmajor/seed-IT>
+* _**Organisation GitHub**_ : <https://github.com/seed-IT>
 * _**Trello**_ : <https://trello.com/b/XEX3CKmq>
 * _**Docker Hub**_ : <https://cloud.docker.com/repository/docker/melvinmajor/seed-it>
 
-Nous avons par ailleurs utilisé un groupe de communication privé dans _**Microsoft Teams**_, tout comme _**Toggl**_ comme outil de timesheet.
+Nous avons par ailleurs utilisé un groupe de communication privé dans _**Microsoft Teams**_, tout comme _**Clockify**_ comme outil de timesheet.
 
 \pagebreak
 
@@ -84,40 +84,45 @@ Le nombre de points accordé est lié à la difficultée et, par conséquent, au
 ## Technical Stories
 
 * TS : CSS du site web _(Sprint 2, 2 points)_
-  * _**Responsable :**_ Melvin Campos Casares
-  * _**Description :**_ Avancement sur le design final pour le site internet
+  * _**Responsable :**_ Melvin Campos Casares.
+  * _**Description :**_ Avancement sur le design final pour le site internet.
   * _**Tâches :**_
-    * Réflexion sur l'amélioration du design du site internet
-    * Mis en place des idées
+    * Réflexion sur l'amélioration du design du site internet,
+    * Mis en place des idées.
 * TS : Contenu du site web _(Sprint 2, 3 points)_
-  * _**Responsable :**_ Constantin Mirica
-  * _**Description :**_ Ecrire le contenu pour les autres pages du site internet
-  * _**Tâche :**_ Contenu des pages "A propos", "Contact" et "Boutique"
+  * _**Responsable :**_ Constantin Mirica.
+  * _**Description :**_ Ecrire le contenu pour les autres pages du site internet.
+  * _**Tâche :**_ Contenu des pages "A propos", "Contact" et "Boutique".
 * TS : Mise en place du site web _(Sprint 1, 5 points)_
-  * _**Responsable :**_ Hymed Boussaklatan
-  * _**Description :**_ Mettre en place les particularités du serveur Apache
+  * _**Responsable :**_ Hymed Boussaklatan.
+  * _**Description :**_ Mettre en place les particularités du serveur Apache.
   * _**Tâches :**_
-    * Intégrer les pages au serveur Apache.
+    * Intégrer les pages au serveur Apache,
     * Communication avec le serveur de base de données.
 * TS : Démarrage des services sur le VPS _(Sprint 2, 2 points)_
-  * _**Responsables :**_ l'équipe entière
+  * _**Responsables :**_ l'équipe entière.
   * _**Description :**_ mise en place des services nécessaire sur le VPS pour le bon démarrage du projet.
-  * _**Tâche :**_ Démarrer les services préparé lors du Sprint 1
+  * _**Tâche :**_ Démarrer les services préparé lors du Sprint 1.
 * TS : Commander le capteur température/humidité
-  * _**Responsable :**_ Melvin Campos Casares
+  * _**Responsable :**_ Melvin Campos Casares.
   * _**Description :**_ commande du capteur de température/humidité sélectionné pour ce projet et fonctionnant avec la Raspberry Pi.
   * _**Tâche :**_ Commander le module BME280 auprès d'un fournisseur.
 * TS : Création de la base de données _(Sprint 2, 10 points)_
-  * _**Responsables :**_ Antoine Hoebaer et Nathan Henry
-  * _**Description :**_ Démarrage de la partie base de données suite aux réflexions de la dernière réunion
+  * _**Responsables :**_ Antoine Hoebaer et Nathan Henry.
+  * _**Description :**_ Démarrage de la partie base de données suite aux réflexions de la dernière réunion.
   * _**Tâches :**_
-    * Création de la base de données
-    * Mise en place de la base de données sur le VPS
-    * Réflexion sur l'avancement avancé pour le prochain Sprint
+    * Création de la base de données,
+    * Mise en place de la base de données sur le VPS,
+    * Réflexion sur l'avancement avancé pour le prochain Sprint.
 
 ## Bug
 
-* Le nouveau CSS mis en place est _Responsive Design_ mais certaines optimisations sont encore nécessaire pour que l'affichage soit correct sur petits écrans.
+Le nouveau CSS mis en place est _Responsive Design_ mais certaines optimisations ont été nécessaire pour que l'affichage soit correct sur petits écrans.
+
+* BUG : Fix du CSS du site web _(Sprint 2, 1 point)_
+  * _**Responsable :**_ Melvin Campos Casares.
+  * _**Description :**_ Correction des erreurs récupéré suite à la phase de test.
+  * _**Tâche :**_ Correction du Responsive Design non chargé sur des écrans de petites tailles avec forte résolution.
 
 \pagebreak
 
@@ -130,11 +135,13 @@ Cela sera reglé pour le prochain Sprint.
 |-----|------|-------|-------------|
 | Hubert | 03/10/2019 | 53 miutes | Setup environment kotlin + mise à niveau |
 | Hubert | 03/10/2019 | 13 minutes | Ajout d'un Makefile afin de compiler les rapports |
+| Hubert | 03/10/2019 | 30 minutes | Fix VPS SSH (compte spécifique hubert) |
 | Hubert | 03/10/2019 | 9 minutes | Fix DNS du VPS |
+| Filipp | 04/10/2019 | 30 minutes | Création d'une base de formulaire d'enquête |
 | Melvin | 04/10/2019 | 38 minutes | CSS v2.0 - Police et couleurs |
 | Melvin | 04/10/2019 | 1 heure, 12 minutes et 13 secondes | CSS v2.0 - Responsive design et design |
 | Hymed | 05/10/2019 | 1 heure, 8 minutes et 34 secondes | HTML/CSS ---> Sign In + Sign Up |
-| Melvin | 06/10/2019 | ? | Comparaison des capteurs AM2302, BMP280 et BME280 et choix du capteur d'humidité/température retenu |
+| Melvin | 06/10/2019 | 36 minutes | Comparaison des capteurs AM2302, BMP280 et BME280 et choix du capteur d'humidité/température retenu |
 | Antoine | 07/10/2019 | 1 heure, 34 minutes et 51 secondes | Ebauche de la base de données |
 | Melvin | 07/10/2019 | 28 minutes | Comparaison des prix pour les composants entre les différents fournisseurs + Achat auprès de Banggood |
 | Melvin | 07/10/2019 | 30 minutes et 59 secondes | Mise à jour du DNS + ticket support (responsable technique avec droit de modification DNS ?) |
@@ -143,8 +150,27 @@ Cela sera reglé pour le prochain Sprint.
 | Constantin | 09/10/2019 | 5 minutes et 43 secondes | Création de la page Facebook |
 | Filipp | 09/10/2019 | 30 minutes et 2 secondes | Création du formulaire d'enquête en ligne sur le business plan |
 | Hubert | 09/10/2019 | 35 minutes | Aide pour la préparation de l'enquête en ligne sur le business plan avec Filipp |
+| Filipp | 10/10/2019 | 1 heure, 15 minutes | Conception du schéma de la base de données |
+| Hubert | 10/10/2019 | 1 heure, 17 minutes et 39 secondes | Recherches et documentation des librairies (API) |
+| Hymed | 10/10/2019 | 1 heure, 45 minutes et 10 secondes | HTML/CSS : Connexion et inscription |
+| Hubert | 10/10/2019 | 11 minutes et 54 secondes | Docker mariaDB |
+| Hymed | 10/10/2019 | 2 heures, 34 minutes et 41 secondes | HTML/CSS : Connexion et inscription (suite) |
+| Filipp | 10/10/2019 | 20 minutes | Recherche des couleurs pour mettre en place une palette de couleurs pour le site |
+| Melvin | 12/10/2019 | 17 minutes et 47 secondes | CSS : correction d'un bogue lié à une résolution d'écran spécifique avec le Responsive Design |
+| Nathan | 13/10/2019 | 1 heure, 33 minutes | Essai d'implémentation de la base de données dans un service |
 
 ## Réunions
+
+* 03/10/2019 : Réunion entre tous les membres du projet
+  * _Durée :_ 3 heures.
+  * Discussions sur l'ensemble du projet, les réalisations de ce Sprint et répartition des tâches.
+    Correction de certains problèmes rencontré par des membres de l'équipe nécessitant l'intervention d'OVH ou d'un autre membre.
+* 07/10/2019 : Réunion entre certains membres du projet
+  * _Durée :_ 30 minutes.
+  * Discussion sur la base de données et mise en commun afin de travailler plus efficacement.
+* 10/10/2019 : Réunion entre tous les membres du projet
+  * _Durée :_ 3 heures.
+  * Mise en commun de l'état d'avancement du Sprint, mise en avant de la partie base de données et travail en 2 sous-équipes.
 
 \pagebreak
 
@@ -155,7 +181,8 @@ Cela sera reglé pour le prochain Sprint.
 # Tests
 
 La partie front-end du site web à été testé via l'outil de développement de Google Chrome et Mozilla Firefox.
-En effet, ces deux navigateurs n'interagissent pas totalement de la même manière avec le site internet développé et c'est ainsi que nous avons remarqué certaines optimisations à apporter dans la partie _Responsive Design_ concernant les écrans de petites tailles.
+En effet, ces deux navigateurs n'interagissent pas exactement de la même manière avec les sites internet et c'est ainsi que nous avons remarqué certaines optimisations à apporter dans la partie _Responsive Design_ concernant les écrans de petites tailles.
+Nous pensions optimiser cela lors du Sprint suivant mais cela à été finalement possible lors de ce Sprint.
 
 \pagebreak
 
@@ -223,10 +250,6 @@ Pour le prochain Sprint, nous estimons les _Stories_ suivants :
 
 ## Technical Stories
 
-* TS : Fix du CSS du site web _(Sprint 3, 1 point)_
-  * _**Responsable :**_ Melvin Campos Casares
-  * _**Description :**_ Correction des erreurs récupéré suite à la phase de test
-  * _**Tâche :**_ Correction de l'affichage pour petit écran non chargé sur des écrans de petites tailles avec forte résolution
 * TS : Avancement du CSS du site web _(Sprint 3, 2 points)_
   * _**Responsable :**_ Melvin Campos Casares
   * _**Description :**_ Avancement sur la partie CSS du site web au fur et à mesure du développement des pages
