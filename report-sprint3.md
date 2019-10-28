@@ -218,7 +218,7 @@ Notre équipe n’est pas faite à base d’amitié mais à base de confiance, e
 * Web : Antoine _(JV)_
 * IoT : Nathan _(VB)_
 * Virtualisation : Hymed _(RJ)_
-* Sécurité : Hubert _(V)_
+* Sécurité et API : Hubert _(RB)_
 
 La colorimétrie correspond au test de personnalité DISC et comme vous pouvez le remarquer, nous avons choisi un seul membre qui a une personnalité plus « vive », car suite à nos analyses c’est le meilleur choix.
 
