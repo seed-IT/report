@@ -150,6 +150,59 @@ Cela sera reglé pour le prochain Sprint.
 
 | Nom | Date | Durée | Description |
 |-----|------|-------|-------------|
+| Nathan | 17/10/2019 | 02:09:34 | Importation de la base de données dans le service sur le VPS |
+| Hubert | 17/10/2019 | 00:23:33 | Docker DB |
+| Hymed | 17/10/2019 | 01:18:30 | Sécurité + création des comptes |
+| Hubert | 17/10/2019 | 00:36:39 | Recherches pour l'API |
+| Hymed | 17/10/2019 | 04:56:06 | Framework PHP |
+| Hubert & Filipp | 17/10/2019 | 00:19:46 | API : Partie Maven |
+| Hymed | 17/10/2019 | 03:22:49 | Sécurité + création des comptes |
+| Hymed | 17/10/2019 | 02:10:42 | Framework PHP |
+| Nathan | 17/10/2019 | 02:13:00 | Importation de la base de données dans le service sur le VPS |
+| Antoine | 19/10/2019 | 01:01:36 | Seed-IT webpage |
+| Antoine | 19/10/2019 | 00:21:00 | Seed-IT webpage |
+| Nathan | 19/10/2019 | 00:42:00 | Migration du service de la base de données |
+| Nathan | 19/10/2019 | 00:57:38 | Mise à jour du service de la base de données |
+| Nathan | 19/10/2019 | 00:47:22 | HTML : Informations sur les créateurs |
+| Antoine | 19/10/2019 | 00:23:12 | Seed-IT webpage |
+| Melvin | 20/10/2019 | 00:12:54 | Soudures du capteur BME280 (Adafruit) |
+| Melvin | 20/10/2019 | 01:04:27 | Configuration du Raspberry Pi 4 : activation des interfaces I2C/SPI, Blinka test, installation des drivers du capteur BME280 d'Adafruit et intégration du ventilateur CPU SHIM |
+| Melvin | 20/10/2019 | 01:20:11 | Programmation du capteur BME280 |
+| Melvin | 21/10/2019 | 01:52:36 | Programmation du capteur BME280 |
+| Hymed | 21/10/2019 | 04:26:56 | Framework PHP |
+| Antoine | 21/10/2019 | 01:09:35 | Seed-IT webpage |
+| Hymed | 21/10/2019 | 05:00:00 | Framework PHP |
+| Filipp | 22/10/2019 | 00:41:28 | API Java |
+| Melvin | 22/10/2019 | 01:22:02 | Raspberry Pi 4 : DDNS (Dynamic DNS via Duck DNS) + SSH + Port forwarding |
+| Hubert | 22/10/2019 | 00:08:00 | Raspberry Pi 4 : Tests réseaux + pare-feu + SSH |
+| Nathan | 22/10/2019 | 00:36:12 | Optimisation du service de la base de données |
+| Melvin | 22/10/2019 | 00:55:25 | Raspberry Pi 4 : déplacement des logs en RAM + service de recopie en stockage (toutes les 3h + extinction/redémarrage) |
+| Filipp | 22/10/2019 | 02:00:00 | Requêtes site web + API |
+| Constantin | 23/10/2019 | 00:46:53 | Raspberry Pi 4 : installation de MySQL |
+| Constantin | 23/10/2019 | 02:14:07 | Raspberry Pi 4 : debug, installation et configuration de MariaDB, PHPMyAdmin et Apache2 |
+| Melvin | 23/10/2019 | 00:59:44 | Ajout du timestamp et "clear" terminal lors du démarrage du capteur BME280 |
+| Hubert | 23/10/2019 | 03:01:09 | API |
+| Nathan | 23/10/2019 | 00:53:09 | Tests unitaire - Gestion de projet |
+| Hubert | 23/10/2019 | 03:37:20 | Tests API + Aide Filipp |
+| Hubert | 24/10/2019 | 00:25:47 | Tests API |
+| Hubert | 24/10/2019 | 01:16:51 | API |
+| Melvin | 25/10/2019 | 01:30:00 | Optimisation des print (python3) + exportation des données importantes en JSON |
+| Hubert | 25/10/2019 | 01:02:00 | API Blueprint |
+| Hubert | 25/10/2019 | 01:26:00 | API Blueprint + GitHub Pages |
+| Hubert | 25/10/2019 | 01:38:59 | API |
+| Melvin | 25/10/2019 | 00:15:33 | Soudures capteur BME280 (capteur CJMCU-280) |
+| Filipp | 26/10/2019 | 00:11:34 | Formation framework java pour database + facile |
+| Filipp | 26/10/2019 | 00:48:39 | API Java |
+| Hubert | 26/10/2019 | 00:08:16 | API Database |
+| Hubert | 26/10/2019 | 02:12:40 | API Database |
+| Hubert | 26/10/2019 | 01:02:55 | API Database |
+| Hubert | 27/10/2019 | 01:29:36 | API Database |
+| Hubert | 27/10/2019 | 03:54:37 | API Database |
+| Antoine | 27/10/2019 | 01:12:33 | Seed-IT webpage |
+| Melvin | 27/10/2019 | 00:34:05 | Rapport Sprint 3 |
+| Melvin | 28/10/2019 | 00:18:31 | Test pour optimisation du ventilateur SHIM |
+| Melvin | 28/10/2019 | 00:31:07 | Test de compatibilité du capteur CJMCU-280 + courrier fournisseur erreur du capteur CJMCU envoyé |
+| Melvin | 28/10/2019 | 00:32:31 | Rapport Sprint 3 : Timesheet |
 
 ## Réunions
 
@@ -167,6 +220,9 @@ Cela sera reglé pour le prochain Sprint.
   * _Durée :_ 30 minutes.
   * Discussions sur la base de données, l'API, l'appareil de suivi, le site web et des choses à mettre en place d'ici la prochaine réunion.
     Nathan était présent à une partie de la réunion par visio-conférence.
+* 28/10/2019 : Réunion entre plusieurs membres du projet _(Constantin, Hubert, Melvin)_
+  * _Durée :_ 20 minutes.
+  * Discussion autour de l'API et des prérequis nécessaire dans les parties Web et base de données avant de finaliser l'API.
 
 \pagebreak
 
