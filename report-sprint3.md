@@ -203,6 +203,14 @@ Cela sera reglé pour le prochain Sprint.
 | Melvin | 28/10/2019 | 00:18:31 | Test pour optimisation du ventilateur SHIM |
 | Melvin | 28/10/2019 | 00:31:07 | Test de compatibilité du capteur CJMCU-280 + courrier fournisseur erreur du capteur CJMCU envoyé |
 | Melvin | 28/10/2019 | 00:32:31 | Rapport Sprint 3 : Timesheet |
+| Melvin | 29/10/2019 | 00:05:34 | Upgrade Raspberry Pi |
+| Melvin | 29/10/2019 | 01:01:03 | JSON et affichage transformé en fonction + Gestion de l'exception KeyboardInterrupt |
+| Constantin | 29/10/2019 | 00:48:12 | Envoyer et recevoir JSON Pi - Website |
+| Melvin | 31/10/2019 | 00:49:04 | Préparation de la dernière enquête |
+| Antoine | 03/11/2019 | 00:18:09 | Seed-IT webpage |
+| Melvin | 04/11/2019 | 00:12:25 | Ajout des derniers détails + publication du sondage sur Facebook, LinkedIn, etc. |
+| Antoine | 04/11/2019 | 03:56:11 | Seed-IT webpage |
+| Melvin | 05/11/2019 | 00:04:51 | Rapport Sprint 3 : Mise à jour du timesheet |
 
 ## Réunions
 
