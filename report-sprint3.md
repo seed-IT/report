@@ -155,8 +155,8 @@ Cela sera reglé pour le prochain Sprint.
 | Hubert | 17/10/2019 | 00:36:39 | Recherches pour l'API |
 | Hymed | 17/10/2019 | 04:56:06 | Framework PHP |
 | Hubert & Filipp | 17/10/2019 | 00:19:46 | API : Partie Maven |
-| Hymed | 17/10/2019 | 03:22:49 | Sécurité + création des comptes |
-| Hymed | 17/10/2019 | 02:10:42 | Framework PHP |
+| Hymed | 17/10/2019 | 04:41:19 | Sécurité + création des comptes |
+| Hymed | 17/10/2019 | 07:18:48 | Framework PHP |
 | Nathan | 17/10/2019 | 02:13:00 | Importation de la base de données dans le service sur le VPS |
 | Antoine | 19/10/2019 | 01:01:36 | Seed-IT webpage |
 | Antoine | 19/10/2019 | 00:21:00 | Seed-IT webpage |
@@ -210,6 +210,14 @@ Cela sera reglé pour le prochain Sprint.
 | Melvin | 04/11/2019 | 00:12:25 | Ajout des derniers détails + publication du sondage sur Facebook, LinkedIn, etc. |
 | Antoine | 04/11/2019 | 03:56:11 | Seed-IT webpage |
 | Melvin | 05/11/2019 | 00:04:51 | Rapport Sprint 3 : Mise à jour du timesheet |
+| Melvin | 05/11/2019 | 00:21:34 | Analyse des 18 premiers résultats de l'enquête |
+| Hubert | 05/11/2019 | 00:25:00 | docker network |
+| Antoine | 05/11/2019 | 02:32:43 | profil.html |
+| Hymed | 06/11/2019 | 07:43:00 | Framework PHP |
+| Constantin | 06/11/2019 | 00:40:32 | Communication infos Raspberry API |
+| Constantin | 06/11/2019 | 00:46:24 | Apprendre fonctionnement API |
+| Hymed | 06/11/2019 | 00:00:51 | Framework PHP |
+| Constantin & Melvin | 07/11/2019 | 01:11:54 | Rapport Sprint 3 |
 
 ## Réunions
 
@@ -292,14 +300,14 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 ## Estimation de la vélocité de l'équipe
 
 La vélocité de l'équipe est améliorée depuis que nous avons mis en place des équipes de deux par tache.
-L'efficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus conséquent. 
+L'efficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus conséquent.
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
 ### Forces
 
 Le temps étant bien plus important, l'avancée est aussi pus importante.
-Cela a fait en sorte de motiver d'autant plus les membres qui ont vu que leur travail commence à être finalisé. 
+Cela a fait en sorte de motiver d'autant plus les membres qui ont vu que leur travail commence à être finalisé.
 
 ### Faiblesses
 
