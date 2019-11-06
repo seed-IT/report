@@ -194,7 +194,7 @@ Cela sera reglé pour le prochain Sprint.
 
 # Schémas et analyses
 
-![Schéma réseau de seed-IT](schemas/topo.jpg)
+![Schéma réseau de seed-IT](schemas/topo-old-S1S2.jpg)
 
 # Tests
 
