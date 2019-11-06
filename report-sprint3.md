@@ -54,16 +54,19 @@ Nous avons par ailleurs utilisé un groupe de communication privé dans _**Micro
 
 ## Avancement technique
 
-Du point de vue technique, nous avons avancé sur le fonctionnement et sur la structure du site, mais aussi sur le côté Raspberry Pi. La partie concernant l'appareil de suivi (température, humidité et pression atmosphérique) est finie, nous devons juste envoyer les données à notre API.
+Du point de vue technique, nous avons avancé sur le fonctionnement et sur la structure du site, mais aussi sur le côté Raspberry Pi.
+La partie concernant l'appareil de suivi (température, humidité et pression atmosphérique) est finie, nous devons juste envoyer les données à notre API.
 
 ## Méthodologie et gestion d'équipe
 
-Nous avons instauré le principe de PokerPlanner via Teams afin d'essayer d'avancer malgré les différences d'horaire de chacun. Avant les congés nous avons mis en place une stratégie commune pour avancer le projet dans les grandes lignes. Cela nous a beaucoup aidés, car les petits changements ont été faciles à adapter via Teams.
-
+Nous avons instauré le principe de PokerPlanner via Teams afin d'essayer d'avancer malgré les différences d'horaire de chacun.
+Avant les congés nous avons mis en place une stratégie commune pour avancer le projet dans les grandes lignes.
+Cela nous a beaucoup aidés, car les petits changements ont été faciles à adapter via Teams.
 
 ## Analyse réflexive du fonctionnement du groupe
 
-L'avancement plus rapide que dans les autres sprints, a été possible grâce à l'entraide des équipes de 2. Il y a eu 3 équipes de 2, chacune sur un sujet, et au tour de rôle un membre qui aidait les équipes en difficulté.
+L'avancement plus rapide que dans les autres sprints, a été possible grâce à l'entraide des équipes de 2.
+Il y a eu 3 équipes de 2, chacune sur un sujet, et au tour de rôle un membre qui aidait les équipes en difficulté.
 
 \pagebreak
 
@@ -227,12 +230,16 @@ Cela sera reglé pour le prochain Sprint.
 * 28/10/2019 : Réunion entre plusieurs membres du projet _(Constantin, Hubert, Melvin)_
   * _Durée :_ 20 minutes.
   * Discussion autour de l'API et des prérequis nécessaire dans les parties Web et base de données avant de finaliser l'API.
+* 05/11/2019 : Réunion entre plusieurs membres du projet _(Antoine, Constantin, Hubert, Hymed, Melvin, Nathan)_
+  * _Durée :_ 15-30 minutes.
+  * Il s'agissait essentiellement d'une séance de prise de photos pour du contenu spécifique sur notre site internet (une page consacrée sur qui nous sommes).
+    Concernant Filipp, dû à un empêchement sur le temps de midi (moment à laquelle le moment photo était prévu), il est prévu que nous prenions une photo de lui d'ici peu.
 
 \pagebreak
 
 # Schémas et analyses
 
-![Schéma réseau de seed-IT](schemas/topo.jpg)
+Certaines modifications étant à apporter, les schémas et analyses à jour sont pour le moment contenu dans le **Business Plan** mais nous comptons l'inclure dans le prochain rapport de Sprint.
 
 # Tests
 
@@ -284,24 +291,95 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 ## Estimation de la vélocité de l'équipe
 
-La vélocité de l'équipe est améliorée depuis que nous avons mis en place des équipes de deux par tache. L'efficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus conséquent. 
+La vélocité de l'équipe est améliorée depuis que nous avons mis en place des équipes de deux par tache.
+L'efficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus conséquent. 
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
 ### Forces
 
-Le temps étant bien plus important, l'avancée est aussi pus importante. Cela a fait en sorte de motiver d'autant plus les membres qui ont vu que leur travail commence à être finalisé. 
+Le temps étant bien plus important, l'avancée est aussi pus importante.
+Cela a fait en sorte de motiver d'autant plus les membres qui ont vu que leur travail commence à être finalisé. 
 
 ### Faiblesses
 
-Les congés nous ont aidés mais ils ont aussi ralenti la communication au sein de l'équipe, cela se faisant avec un délai supplémentaire, à cause du timing de chacun. C'est pour cela que les décisions importantes ont été prises par le Scrum master qui discutait avec chaque membre séparément.
+Les congés nous ont aidés mais ils ont aussi ralenti la communication au sein de l'équipe, cela se faisant avec un délai supplémentaire, à cause du timing de chacun.
+C'est pour cela que les décisions importantes ont été prises par le Scrum master qui discutait avec chaque membre séparément.
 
 \pagebreak
 
 # Objectif du prochain Sprint
 
+Nous avons décidé de baptiser notre appareil de suivi _**Baobab**_.
+Dès lors, sur la plateforme en ligne, ce nom sera mentionné dans la partie utilisateur.
+
 Pour le prochain Sprint, nous estimons les _Stories_ suivants :
 
 ## User Stories
 
+* En tant qu'utilisateur du site web _(non enregistré)_, j'ai la possibilité de voir les différents plans tarifaires _(gratuit, Premium, PiMium)_ et leurs particularités.
+* En tant que visiteur du site web _(non enregistré)_, j’ai la possibilité de prendre contact avec l’entreprise seed-IT pour obtenir de plus amples informations ne se retrouvant pas sur le site internet ou la FAQ mis à disposition.
+* En tant que visiteur du site web _(enregistré)_, j’ai la possibilité de prendre contact avec les membres afin de demander des détails quant à l’offre qu’ils proposent.
+* En tant que visiteur du site web _(enregistré)_, j’ai la possibilité de voir les offres disponibles dans un certain rayon d’action.
+* En tant que visiteur du site web _(enregistré)_, j’ai la possibilité de m’inscrire ou non à une newsletter me tenant informé des nouvelles offres pouvant m’intéresser ainsi qu’à une newsletter plus générale provenant de seed-IT.
+
+* En tant qu’utilisateur de l’appareil de suivi de mon potager _(enregistré et abonnement PiMium)_, je n’ai qu’à brancher l’appareil et suivre le mini-tutoriel de première mise en marche pour la configurer.
+* En tant qu’utilisateur de l’appareil de suivi de mon potager _(enregistré et abonnement PiMium)_, j’ai la possibilité de suivre les données de l’appareil via le site web.
+* En tant qu’utilisateur de l’appareil de suivi de mon potager _(enregistré et abonnement PiMium)_, j’ai la possibilité de prendre contact avec le support de seed-IT en cas de problème technique.
+
 ## Technical Stories
+
+* TS : Implémentation du réseau Wi-Fi du client pour l'appareil de suivi _(Sprint 4, 2 points)_
+  * **Responsable :** Melvin Campos Casares
+  * **Description :** Certains utilisateurs de l'appareil de suivi auront besoin d'une solution de connexion sans fil à leur modem.
+                    Nous proposerons de configurer cela avant envoi de l'appareil afin de le rendre "Plug and Play".
+  * **Tâche :** Création d'un document interne explicatif pour configurer et enregistrer un réseau Wi-Fi.
+* TS : Automatisation du démarrage du capteur et de sa connexion à la plateforme en ligne _(Sprint 4, 3 points)_
+  * **Responsables :** Constantin Mirica, Melvin Campos Casares
+  * **Description :** Afin de rendre notre appareil de suivi entièrement "Plug and Play", un système d'automatisation du démarrage du capteur et de sa connexion à la plateforme en ligne est nécessaire.
+  * **Tâches :**
+    * Modification du code et automatisation du démarrage du capteur,
+    * Connexion à la plateforme en ligne,
+    * Système d'attente de reconnexion à internet en cas de perte (asynchrone).
+* TS : Identification de chaque appareil de suivi afin de les relier à un compte sur la plateforme en ligne _(Sprint 4, 4 points)_
+  * **Responsables :** Constantin Mirica, Melvin Campos Casares
+  * **Description :** Dans le cas ou l'utilisateur viendrait à devoir recréer son compte, il doit être possible de relier son appareil à un nouveau compte.
+  * **Tâches :**
+    * Mise en place d'un identificateur unique à chaque appareil de suivi,
+    * Reconnaissance de l'identificateur sur la plateforme en ligne lorsque indiqué dans les paramètres du compte utilisateur.
+* TS : Mise en place des graphiques de l'appareil de suivi sur la plateforme web _(Sprint 4, 3 points)_
+  * **Responsable :** Hymed Boussaklatan
+  * **Description :** Une page dédié à l'appareil de suivi est fourni à l'utilisateur ayant relié un appareil à son compte.
+                    Il y voit les graphiques basé sur les informations de température, humidité et pression atmosphérique récupéré.
+                    Un indicateur de la connexion de l'appareil est affiché (statut connecté ou déconnecté).
+  * **Tâches :**
+    * Création de la page dédié à l'appareil de suivi,
+    * Mise en place de la génération des graphiques basé sur les informations récolté via l'API,
+    * Indicateur "Baobab connecté" ou "Baobab déconnecté" avec code couleur.
+* TS : Ecriture du mode d'emploi de la première mise en marche de l'appareil de suivi _(Sprint 4, 3 points)_
+  * **Responsable :** Filipp Shatskiy
+  * **Description :** Un document explicatif simple, clair et court est fourni avec l'appareil de suivi afin de réaliser correctement sa première mise en marche et sa liaison avec le compte utilisateur sur la plateforme en ligne.
+  * **Tâche :** Ecriture du document explicatif avec quelques schémas simple en noir et blanc.
+* TS : Finalisation de l'API _(Sprint 4, 10 points)_
+  * **Responsable :** Hubert Van De Walle
+  * **Description :** Finalisation de l'API servant à l'intercommunication entre le site internet et la base de données.
+  * **Tâche :** Création de toutes les méthodes GET et POST nécessaires avec la base de données, l'appareil de suivi et le site internet.
+* TS : Finalisation de la base de données _(Sprint 4, 5 points)_
+  * _**Responsable :**_ Nathan Henry
+  * _**Description :**_ Finalisation de l'implémentation de la base de données.
+  * _**Tâches :**_
+    * Liaison avec le site web,
+    * Intégration de la partie concernant l'appareil de suivi.
+* TS : Finalisation de la partie dynamique du site web _(Sprint 4, 15 points)_
+  * _**Responsable :**_ Hymed Boussaklatan, Antoine Hoebaer
+  * _**Description :**_ Intégration de tout le contenu dynamique n'ayant pas été mis en place lors du Sprint précédent.
+  * _**Tâches :**_
+    * Mise en place d'un formulaire de contact,
+    * Intégration du filtrage par rayon d'action dans la "boutique" pour les membres,
+    * Intégration des éléments lié à la page dédié à l'appareil de suivi pour les membres.
+* BUG : CSS final du site web adapté à la nouvelle architecture du site web _(Sprint 4-5, 3 points)_
+  * _**Responsable :**_ Antoine Hoebaer, Melvin Campos Casares
+  * _**Description :**_ Finalisation de la partie CSS du site web sur base de la version finale du site web développé
+  * _**Tâches :**_
+    * Ajout des id et classes nécessaires pour toutes les pages implémentées et la nouvelle structure mise en place,
+    * Vérification de la compatibilité avec la structure du service web.
