@@ -56,18 +56,12 @@ Nous avons par ailleurs utilisé un groupe de communication privé dans _**Micro
 
 ## Méthodologie et gestion d'équipe
 
-Pour la gestion de notre équipe, nous avons eu quelques entrevues et réunions afin d'avancer ensemble sur le projet, tout en travaillant la plupart du temps par plus petits groupes de 2 ou 3 personnes afin d'optimiser au mieux notre temps de travail.
+Nous avons instauré le principe de PokerPlanner via Teams afin d'essayer d'avancer malgré les différences d'horaire de chacun. Avant les congés nous avons mis en place une stratégie commune pour avancer le projet dans les grandes lignes. Cela nous a beaucoup aidés, car les petits changements ont été faciles à adapter via Teams.
 
-Chaque partie de l'équipe a reçu des tâches à faire et des délais de réalisations.
-En fonction de l'avancement du Sprint précédent, nous savons apprécier beaucoup mieux le temps nécessaire pour les différentes tâches.
 
 ## Analyse réflexive du fonctionnement du groupe
 
-Du point de vue technique, nous avons avancé sur le design et la structure du site web.
-La partie concernant l'appareil de suivi (température, humidité et pression atmosphérique) avance également de son côté et il ne nous reste plus qu'à peaufiner certains détails avant que cette partie soit intégralement terminée.
-
-Le groupe est de plus en plus optimal et malgré le petit frein que nous avons eu au début du Sprint 1, nous avançons bien.
-Nous avons finalisé les choses que nous nous sommes proposé pour ce sprint.
+Du point de vue technique, nous avons avancé sur le fonctionnement et sur la structure du site, mais aussi sur le côté Raspberry Pi. La partie concernant l'appareil de suivi (température, humidité et pression atmosphérique) est finie, nous devons juste envoyer les données à notre API. Cet avancement a été possible grâce à l'entraide des équipes de 2. Il y a eu 3 équipes de 2, chacune sur un sujet, et au tour de rôle un membre qui aidait les équipes en difficulté.
 
 \pagebreak
 
@@ -288,24 +282,17 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 ## Estimation de la vélocité de l'équipe
 
-La vélocité de l'équipe est en moyenne bonne, compte tenu de la charge de travail et des nombreux aspects RSE que nous voulons aborder et intégrer dans ce projet.
-La cohésion du groupe a encore certaines lacunes, car certaines pensées sont bien divergentes.
-Pour résoudre tout cela, nous avons mis en place des réunions plus longues, afin que tous les membres se mettent d'accord sur l'intégralité du projet et de son avenir.
+La vélocité de l'équipe est améliorée depuis que nous avons mis en place des équipe de deux par tache. L'éfficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus consequent. 
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
 ### Forces
 
-L'ensemble de l'équipe utilise les outils demandés par le scrum master et cela évite beaucoup de mécontentements.
-La communication est améliorée grâce au partage des idées qui se fait obligatoirement après chaque session de travail.
-La vision étant très claire dans l'ensemble, nous savons tous la finalité attendue.
+Le temps étant bien plus important, l'avancée est aussi pus importante. Cela a fait en sorte de motiver d'autant plus les membres qui ont vu que leur travail commence à être finalisé. 
 
 ### Faiblesses
 
-L'utilisation des outils tel GitHub n'est pas spontané ou ne respecte pas l'utilisation correcte des branches et doit être rappelée constamment à certains membres.
-
-Pour certaines réunions l'intégralité de l'équipe n'était pas réunie à cause des "oublis".
-Afin d'éviter de nouveau cette problématique, le scrum master communique à tous les membres, un jour à l'avance, l'heure et l'endroit du rendez-vous.
+Les congés nous ont aidé mais ils ont aussi ralenti la communication au sein de l'équipe, cela se faisant avec un délais suplementaire, à cause du timing de chacun. C'est pour cela que les décision importante ont été prisent par le Scrum Master qui discutait avec chaque membre séparement.
 
 \pagebreak
 
