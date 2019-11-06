@@ -54,6 +54,8 @@ Nous avons par ailleurs utilisé un groupe de communication privé dans _**Micro
 
 ## Avancement technique
 
+Du point de vue technique, nous avons avancé sur le fonctionnement et sur la structure du site, mais aussi sur le côté Raspberry Pi. La partie concernant l'appareil de suivi (température, humidité et pression atmosphérique) est finie, nous devons juste envoyer les données à notre API.
+
 ## Méthodologie et gestion d'équipe
 
 Nous avons instauré le principe de PokerPlanner via Teams afin d'essayer d'avancer malgré les différences d'horaire de chacun. Avant les congés nous avons mis en place une stratégie commune pour avancer le projet dans les grandes lignes. Cela nous a beaucoup aidés, car les petits changements ont été faciles à adapter via Teams.
@@ -61,7 +63,7 @@ Nous avons instauré le principe de PokerPlanner via Teams afin d'essayer d'avan
 
 ## Analyse réflexive du fonctionnement du groupe
 
-Du point de vue technique, nous avons avancé sur le fonctionnement et sur la structure du site, mais aussi sur le côté Raspberry Pi. La partie concernant l'appareil de suivi (température, humidité et pression atmosphérique) est finie, nous devons juste envoyer les données à notre API. Cet avancement a été possible grâce à l'entraide des équipes de 2. Il y a eu 3 équipes de 2, chacune sur un sujet, et au tour de rôle un membre qui aidait les équipes en difficulté.
+L'avancement plus rapide que dans les autres sprints, a été possible grâce à l'entraide des équipes de 2. Il y a eu 3 équipes de 2, chacune sur un sujet, et au tour de rôle un membre qui aidait les équipes en difficulté.
 
 \pagebreak
 
@@ -282,7 +284,7 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 ## Estimation de la vélocité de l'équipe
 
-La vélocité de l'équipe est améliorée depuis que nous avons mis en place des équipe de deux par tache. L'éfficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus consequent. 
+La vélocité de l'équipe est améliorée depuis que nous avons mis en place des équipes de deux par tache. L'efficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus conséquent. 
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
@@ -292,7 +294,7 @@ Le temps étant bien plus important, l'avancée est aussi pus importante. Cela a
 
 ### Faiblesses
 
-Les congés nous ont aidé mais ils ont aussi ralenti la communication au sein de l'équipe, cela se faisant avec un délais suplementaire, à cause du timing de chacun. C'est pour cela que les décision importante ont été prisent par le Scrum Master qui discutait avec chaque membre séparement.
+Les congés nous ont aidés mais ils ont aussi ralenti la communication au sein de l'équipe, cela se faisant avec un délai supplémentaire, à cause du timing de chacun. C'est pour cela que les décisions importantes ont été prises par le Scrum master qui discutait avec chaque membre séparément.
 
 \pagebreak
 
