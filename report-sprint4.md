@@ -1,6 +1,6 @@
 ---
 title: Projet d'intégration - seed-IT
-subtitle: EPHEC - Groupe 2 - Sprint 3
+subtitle: EPHEC - Groupe 2 - Sprint 4
 author: 
     - Hymed Boussaklatan
     - Melvin Campos Casares
@@ -25,7 +25,7 @@ footer-left: Groupe 2 - Hymed, Melvin, Nathan, Antoine, Constantin, Filipp, Hube
 titlepage-rule-height: 6
 toc: true
 toc-own-page: true
-toc-title: Projet d'intégration "Seed-IT" - Sprint 3
+toc-title: Projet d'intégration "Seed-IT" - Sprint 4
 logo: "seed-it-logo.png"
 logo-width: 300
 ---
