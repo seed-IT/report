@@ -55,15 +55,14 @@ Notre projet est accessible à l'adresse suivante : <http://www.seed-it.eu/>
 # Bilan du Sprint
 
 ## Avancement technique
-Du point de vue technique nous avons fini la majorité des fonctionnalités principales, en ayant plus que la mise en place du graphique sur le 
-site et l'achat des différents plans premium(tulipe et Rose). Par rapport au sprint précédent, la mise en production et faite pour l'interface
+
+Du point de vue technique nous avons fini la majorité des fonctionnalités principales, en ayant plus que la mise en place du graphique sur le site et l'achat des différents plans premium (Tulipe et Rose).
+Par rapport au sprint précédent, la mise en production et faite pour l'interface
 de gestion admin (interface qui sert à gérer tous les comptes présents sur le site), la boutique est accessible et les droits de vision sont établis pour les différents plans.
 Toutes les fonctionnalités par rapport au compte de l'utilisateur sont bien présentes.
-De plus, nous avons fini tout le travail sur le Raspberry Pi. Celle-ci est maintenant capable de transmettre les données vers l'api.
-Nous avons fait en sorte que le Pi soit plug &play, en faisant des scripts qui automatisent le téléchargement de notre repo GitHub, le lancement
-du script du sensor et aussi l'envoie de données.
-
-
+De plus, nous avons fini tout le travail sur le Raspberry Pi.
+Celle-ci est maintenant capable de transmettre les données vers l'api.
+Nous avons fait en sorte que le Pi soit plug&play, en faisant des scripts qui automatisent le téléchargement de notre repo GitHub, le lancement du script du sensor et aussi l'envoie de données.
 
 ## Méthodologie et gestion d'équipe
 
@@ -72,11 +71,10 @@ Nous avons gardé tout de même les mêmes sujets de "spécialisation" de chacun
 
 ## Analyse réflexive du fonctionnement du groupe
 
-La séparation des équipes nous a permis de voir les lacunes de certains membres et de les corriger en conséquence. Par la séparation nous 
-avons récréé certains points de pression qui avaient été corrigé via le pair programming. Malgré un bon avancement et l'interaction de toute 
-l'équipe le sacrum master va remettre en place le pair programming pour le bien de l'équipe. 
+La séparation des équipes nous a permis de voir les lacunes de certains membres et de les corriger en conséquence.
+Par la séparation nous avons récréé certains points de pression qui avaient été corrigé via le pair programming.
+Malgré un bon avancement et l'interaction de toute l'équipe le sacrum master va remettre en place le pair programming pour le bien de l'équipe. 
 Les interactions entre les parties opposées se feront via le sacrum master aussi.
-
 
 \pagebreak
 
@@ -233,7 +231,8 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 ## Estimation de la vélocité de l'équipe
 
 Vélocité en diminution sur la fin du sprint, à cause des raisons évoquées plus haut. 
-Nous avons un ralentissement de 20% par rapport à l'autre sprint. Heureusement, notre travail était plus efficace, même s'il était plus lent à cause des divergences.
+Nous avons un ralentissement de 20% par rapport à l'autre sprint.
+Heureusement, notre travail était plus efficace, même s'il était plus lent à cause des divergences.
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
@@ -246,8 +245,6 @@ Nous avons finalisé tous les points pré-établis.
 
 Nous commençons à mettre en commun nos parties et échanger petit à petit les rôles afin que nous puissions toutes parfaitement toutes les parties du projet.
 Cela nous permet d'apprendre et de compléter nos lacunes mais cette étape ralentie aussi notre avancement. 
-
-
 
 \pagebreak
 
