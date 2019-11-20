@@ -55,20 +55,28 @@ Notre projet est accessible à l'adresse suivante : <http://www.seed-it.eu/>
 # Bilan du Sprint
 
 ## Avancement technique
+Du point de vue technique nous avons fini la majorité des fonctionnalités principales, en ayant plus que la mise en place du graphique sur le 
+site et l'achat des différents plans premium(tulipe et Rose). Par rapport au sprint précédent, la mise en production et faite pour l'interface
+de gestion admin (interface qui sert à gérer tous les comptes présents sur le site), la boutique est accessible et les droits de vision sont établis pour les différents plans.
+Toutes les fonctionnalités par rapport au compte de l'utilisateur sont bien présentes.
+De plus, nous avons fini tout le travail sur le Raspberry Pi. Celle-ci est maintenant capable de transmettre les données vers l'api.
+Nous avons fait en sorte que le Pi soit plug &play, en faisant des scripts qui automatisent le téléchargement de notre repo GitHub, le lancement
+du script du sensor et aussi l'envoie de données.
 
-Du point de vue technique, nous avons avancé sur le fonctionnement et sur la structure du site, mais aussi sur le côté Raspberry Pi.
-La partie concernant l'appareil de suivi (température, humidité et pression atmosphérique) est finie, nous devons juste envoyer les données à notre API.
+
 
 ## Méthodologie et gestion d'équipe
 
-Nous avons instauré le principe de PokerPlanner via Teams afin d'essayer d'avancer malgré les différences d'horaire de chacun.
-Avant les congés nous avons mis en place une stratégie commune pour avancer le projet dans les grandes lignes.
-Cela nous a beaucoup aidés, car les petits changements ont été faciles à adapter via Teams.
+Sur la deuxième partie de ce sprint nous avons séparé les groupes de deux personnes, afin d'arrêter le pair programming et de laisser chacun montrer ses compétences. 
+Nous avons gardé tout de même les mêmes sujets de "spécialisation" de chacun. 
 
 ## Analyse réflexive du fonctionnement du groupe
 
-L'avancement plus rapide que dans les autres sprints, a été possible grâce à l'entraide des équipes de 2.
-Il y a eu 3 équipes de 2, chacune sur un sujet, et au tour de rôle un membre qui aidait les équipes en difficulté.
+La séparation des équipes nous a permis de voir les lacunes de certains membres et de les corriger en conséquence. Par la séparation nous 
+avons récréé certains points de pression qui avaient été corrigé via le pair programming. Malgré un bon avancement et l'interaction de toute 
+l'équipe le sacrum master va remettre en place le pair programming pour le bien de l'équipe. 
+Les interactions entre les parties opposées se feront via le sacrum master aussi.
+
 
 \pagebreak
 
@@ -224,20 +232,22 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 ## Estimation de la vélocité de l'équipe
 
-La vélocité de l'équipe est améliorée depuis que nous avons mis en place des équipes de deux par tache.
-L'efficacité a augmenté, les conflits ont diminué et l'investissement de chacun est plus conséquent.
+Vélocité en diminution sur la fin du sprint, à cause des raisons évoquées plus haut. 
+Nous avons un ralentissement de 20% par rapport à l'autre sprint. Heureusement, notre travail était plus efficace, même s'il était plus lent à cause des divergences.
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
 ### Forces
 
-Le temps étant bien plus important, l'avancée est aussi pus importante.
-Cela a fait en sorte de motiver d'autant plus les membres qui ont vu que leur travail commence à être finalisé.
+Le travail a beaucoup avancé car nous avons su finaliser les étapes mises en test lors du sprint précedent, donc notre avancement était très bon.
+Nous avons finalisé tous les points pré-établis.
 
 ### Faiblesses
 
-Les congés nous ont aidés mais ils ont aussi ralenti la communication au sein de l'équipe, cela se faisant avec un délai supplémentaire, à cause du timing de chacun.
-C'est pour cela que les décisions importantes ont été prises par le Scrum master qui discutait avec chaque membre séparément.
+Nous commençons à mettre en commun nos parties et échanger petit à petit les rôles afin que nous puissions toutes parfaitement toutes les parties du projet.
+Cela nous permet d'apprendre et de compléter nos lacunes mais cette étape ralentie aussi notre avancement. 
+
+
 
 \pagebreak
 
