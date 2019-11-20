@@ -167,18 +167,65 @@ Cela sera reglé pour le prochain Sprint.
 
 | Nom | Date | Durée | Description |
 |-----|------|-------|-------------|
+| Melvin | 07/11/2019 | 00:21:00 | Backup Clockify |
+| Hymed | 09/11/2019 | 08:00:00 | Boutique |
+| Antoine | 10/11/2019 | 03:00:00 | seed-it webpage |
+| Filipp | 10/11/2019 | 02:47:00 | Graphes web : recherche de librairie, formation, mise en place, recherche |
+| Filipp | 11/11/2019 | 02:00:23 | Suite ChartJS |
+| Hymed | 11/11/2019 | 07:12:00 | Gestion des problèmes d'affichage |
+| Melvin | 12/11/2019 | 00:12:39 | Préparation du rapport Sprint 4 |
+| Hubert | 12/11/2019 | 01:03:00 | API sensors |
+| Hymed | 12/11/2019 | 06:21:00 | Profil de connexion |
+| Filipp | 12/11/2019 | 02:30:00 | Suite chartJS : personnalisation des graphes |
+| Constantin | 13/11/2019 | 00:52:14 | Entité-relation (Base de données) |
+| Melvin | 13/11/2019 | 00:40:08 | Documentation pour importer une configuration réseau Wi-Fi |
+| Antoine | 13/11/2019 | 00:08:00 | Bouton de navigation CSS |
+| Hubert | 13/11/2019 | 01:13:00 | API POST sensor |
+| Antoine | 13/11/2019 | 00:22:07 | Bouton de navigation CSS |
+| Hubert | 14/11/2019 | 02:50:00 | API POST sensor |
+| Antoine | 14/11/2019 | 03:05:00 | Amélioration page Accueil |
+| Constantin | 14/11/2019 | 00:52:28 | Send data Pi |
+| Melvin | 14/11/2019 | 01:43:48 | JSON au format ISO, arrondi des valeurs directement depuis l'appareil et envoie des données en lignes |
+| Antoine | 14/11/2019 | 00:36:27 | Amélioration page Accueil |
+| Filipp | 14/11/2019 | 02:01:27 | Graphique : modif couleur de données + checkbox |
+| Constantin | 14/11/2019 | 01:20:00 | Start automatiquement code Raspberry Pi |
+| Nathan & Hymed | 19/11/2019 | 02:00:00 | Connexion user (+ liaison sur ce point de la base de données avec le site web) |
+| Melvin | 19/11/2019 | 01:01:38 | Fix du contenu JSON envoyé pour correspondre aux besoins de Filipp (génération des graphes) |
+| Melvin | 19/11/2019 | 00:17:07 | Revert du fix du contenu JSON envoyé pour correspondre aux besoins de Filipp |
+| Hubert | 19/11/2019 | 00:30:00 | Explication de la liaison avec l'API pour la Raspberry Pi à Melvin |
+| Melvin | 19/11/2019 | 01:40:09 | Liaison avec l'API de la Raspberry Pi |
+| Hubert | 19/11/2019 | 01:27:00 | API POST sensor |
+| Filipp | 19/11/2019 | 04:00:00 | Graphique : correction et mise en place avec l'api d'Hubert |
+| Constantin | 19/11/2019 | 00:55:12 | Rapport Sprint 4 |
+| Nathan & Hymed | 20/11/2019 | 00:51:19 | Mission web - Hymed |
+| Melvin | 20/11/2019 | 00:26:58 | Préparation de la possible mise en place de flags utilisable si voulu au démarrage du code (+ test de logs) |
+| Filipp | 20/11/2019 | 06:17:22 | Graphique : Fin |
+| Melvin | 20/11/2019 | 00:30:00 | Scripts lié à l'utilisation du ventilateur Pimoroni |
+| Hymed | 20/11/2019 | 00:00:54 | Profil de connexion |
+| Hubert | 20/11/2019 | 02:34:00 | API POST sensor |
+| Hubert | 20/11/2019 | 00:48:00 | API GET sensor |
+| Melvin | 20/11/2019 | 00:32:44 | Test de communication avec l'API et la génération des graphes |
+| Hubert | 20/11/2019 | 00:53:00 | Graphique |
+| Constantin | 20/11/2019 | 00:53:46 | Automatisation du code de la Raspberry Pi |
+| Constantin | 20/11/2019 | 01:06:27 | Modifications majeur du Trello |
+| Constantin | 20/11/2019 | 00:10:17 | Create meeting next sprint |
+| Melvin & Constantin | 20/11/2019 | 00:25:58 | Rapport Sprint 4 (+ Constantin) |
 
 ## Réunions
 
 * 07/11/2019 : Réunion entre tous les membres du projet
   * _Durée :_ 3 heures.
   * Mise en commun du Sprint 4, des choses à réaliser et des tâches à se répartir.
+* 14/11/2019 : Réunion entre tous les membres du projet
+  * _Durée :_ 3 heures.
+  * Mise en commun de l'évolution du Sprint 4 sur les parties en cours.
+    De plus, mise en commun des besoins pour la communication entre l'appareil de suivi, le site web et l'API.
 
 \pagebreak
 
 # Schémas et analyses
 
-Certaines modifications étant à apporter, les schémas et analyses à jour sont pour le moment contenu dans le **Business Plan** mais nous comptons l'inclure dans le prochain rapport de Sprint.
+Certaines modifications étant à apporter, les schémas et analyses à jour sont pour le moment contenu dans le **Business Plan** mais nous comptons l'inclure dans le dernier rapport de Sprint.
 
 # Tests
 
@@ -254,4 +301,69 @@ Pour le prochain Sprint, nous estimons les _Stories_ suivants :
 
 ## User Stories
 
+### User Stories en cours
+
+* US : En tant que visiteur du site web _(enregistré)_, j’ai la possibilité de filtrer les offres en fonction de différentes catégories : fleur ou plante, fruit ou légume.
+* US : En tant qu'utilisateur, je veux voir les contenu des offres avant de les choisir.
+* US : En tant que visiteur du site web _(enregistré et abonnement Tulipe)_, j’ai la possibilité d’effectuer 10 échanges de semences par mois.
+* US : En tant qu'utilisateur du site web _(non enregistré)_, j'ai la possibilité de voir les différents plans tarifaires _(gratuit, Tulipe, Rose)_ et leurs particularités.
+* US : En tant que visiteur du site web _(enregistré - gratuit)_, j’ai la possibilité de voir 3 offres disponibles.
+* US : En tant que visiteur du site web _(enregistré et abonnement Rose)_, j’ai la possibilité d’effectuer un nombre illimité d'échange de semences par mois et recevoir l’appareil de suivi de mes graines.
+
+* US (ThermoPi) : En tant qu’utilisateur de l’appareil de suivi de mes graines j'ai la possibilité de voir le graphique sur le site web.
+
+### User Stories à prendre en charge
+
+* US : En tant que visiteur du site web _(enregistré et sous abonnement Tulipe ou Rose)_, j’ai la possibilité d’accéder à des conseils sur les bonnes pratiques à suivre concernant les graines que j’ai ou qui m’intéressent.
+* US : En tant que visiteur du site web _(enregistré)_, j’ai la possibilité de souscrire à l’abonnement premium, PiMium ou de résilier mon abonnement pour revenir à l’offre gratuite.
+
+* US (ThermoPi) : En tant qu’utilisateur de l’appareil de suivi de mes graines _(enregistré et abonnement Rose)_, j’ai la possibilité de suivre les données de l’appareil via le site web.
+
 ## Technical Stories
+
+* TS : Schéma réseau _(Sprint 5, 2 points)_
+  * _**Responsable :**_ Filipp Shatskiy
+  * _**Description :**_ Création du schéma réseau
+  * _**Tâche :**_ Création du schéma réseau visant à être inclus dans le rapport et le wiki.
+* TS : Schéma base de données _(Sprint 5, 4 points)_
+  * _**Responsables :**_ Constantin Mirica, Nathan Henry
+  * _**Description :**_ Création du schéma de la base de données (Entité-Relation)
+  * _**Tâche :**_ Création du schéma base de données visant à être inclus dans le rapport et le wiki.
+* TS : Schéma base de données _(Sprint 5, 3 points)_
+  * _**Responsable :**_ Constantin Mirica
+  * _**Description :**_ Finalisation du Business Plan sur base des modifications apporté courant des précédents Sprint.
+  * _**Tâches :**_
+    * Reparcourir le Business Plan et apporter les adaptations nécessaires pour correspondre à l'évolution du projet,
+    * Ajout de parties complémentaires concernant le côté Green-IT.
+* TS : Gestion des exceptions lié à l'API _(Sprint 5, 5 points)_
+  * _**Responsables :**_ Melvin Campos Casares, Hubert Van De Walle
+  * _**Description :**_ Finalisation de la gestion des exceptions lié à l'API lors de la communication réalisée entre la Raspberry Pi et l'API
+  * _**Tâches :**_
+    * Echange des dernières modifications sur l'API,
+    * Mise en place des exceptions et gestion de stockage temporaire des données avant nouvelle tentative d'envoi.
+* TS : Optimisation du code de la Raspberry Pi _(Sprint 5, 10 points)_
+  * _**Responsables :**_ Melvin Campos Casares, Constantin Mirica
+  * _**Description :**_ Optimisation du code de la Raspberry Pi afin de le rendre plus performant
+  * _**Tâches :**_
+    * Modification pour que le code Python inclus une session,
+    * Possible intégration de flags pour démarrer le code avec d'autres paramètres que ceux par défaut (URL vers l'API et durée avant nouvelle prise de mesure),
+    * Vérification des import globales et locales afin de ne charger que le nécessaire.
+* TS : Finalisation de l'API _(Sprint 5, 6 points)_
+  * **Responsable :** Hubert Van De Walle
+  * **Description :** Finalisation de l'API servant à l'intercommunication entre le site internet et la base de données.
+  * **Tâche :** Création de toutes les méthodes GET et POST nécessaires avec la base de données, l'appareil de suivi et le site internet.
+* TS : Reverse Proxy _(Sprint 5, 8 points)_
+  * **Responsables :** Hymed Boussaklatan, Hubert Van De Walle
+  * **Description :** Implémentation d'un nouveau Reverse Proxy plus performant et plus sécurisé
+  * **Tâche :** Mise en place d'un nouveau Reverse Proxy adapté pour le site web, la base de données et l'API.
+* TS : Finalisation du site web _(Sprint 5, 12 points)_
+  * **Responsables :** Hymed Boussaklatan, Antoine Hoebaer
+  * **Description :** Finalisation du site web
+  * **Tâches :**
+    * Correction des derniers bugs et mise en production des derniers correctifs de modules en test,
+    * Création de la page de présentation des différentes formules _(gratuit, Tulipe et Rose)_,
+    * Finalisation des filtrages pour la boutique.
+* TS : Finalisation du design du site web _(Sprint 5, 5 points)_
+  * **Responsables :** Antoine Hoebaer, Hymed Boussaklatan
+  * **Description :** Finalisation du design du site web par rapport aux dernières implémentations dans la partie production du site
+  * **Tâche :** Modifications des derniers bugs possiblement rencontré avec le Responsive Design du site web.
