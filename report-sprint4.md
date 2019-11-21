@@ -329,7 +329,7 @@ Pour le prochain Sprint, nous estimons les _Stories_ suivants :
   * _**Responsables :**_ Constantin Mirica, Nathan Henry
   * _**Description :**_ Création du schéma de la base de données (Entité-Relation)
   * _**Tâche :**_ Création du schéma base de données visant à être inclus dans le rapport et le wiki.
-* TS : Schéma base de données _(Sprint 5, 3 points)_
+* TS : Finalisation du Business Plan _(Sprint 5, 3 points)_
   * _**Responsable :**_ Constantin Mirica
   * _**Description :**_ Finalisation du Business Plan sur base des modifications apporté courant des précédents Sprint.
   * _**Tâches :**_
