@@ -56,15 +56,11 @@ Notre projet est accessible à l'adresse suivante : <http://www.seed-it.eu/>
 
 ## Avancement technique
 
-//TODO
+A la fin de ce sprint nous nous sommes assuré que toutes les fonctionnalités du site étaient là, mais aussi que toute la sécurité était assez poussée pour protéger les données de nos utilisateurs. Nous avons mis en place un système de filtre afin d'aider les utilisateurs à grouper les différents types de graines. Ensuite, l'utilisateur peut voir les informations de la personne qui les a publiés. En fonction de son plan tarifaire, il pourra voir les informations de plus ou moins d'utilisateurs.
 
 ## Méthodologie et gestion d'équipe
 
-//TODO
-
-## Analyse réflexive du fonctionnement du groupe
-
-//TODO
+La gestion de l'équipe a fonctionné de la même manière que pendant le dernier sprint, en utilisant des taches bien spécifiques et en séparant toutes les fonctionnalités. Les réunions ont été beaucoup plus nombreuses afin d'augmenter le rythme de travail. L'utilisation du planner poker a de nouveau été mise en place car nous nous sommes rendu compte que grâce à cette pratique notre productivité montait en flèche.
 
 \pagebreak
 
@@ -269,19 +265,19 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 ## Estimation de la vélocité de l'équipe
 
-//TODO
+La cohésion de l'équipe est très bonne maintenant et cela engendre également une atmosphère de travail optimale. Notre analyse montre que nous avons fait 20% plus de taches ce sprint que dans les sprints précédents.
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
-//TODO
+Comme décrit plus haut, nous avons mis en place plus de réunions et réutilisé le poker-planner. Ces changements ont augmenté la productivité perdue lors du sprint précèdent. 
 
 ### Forces
 
-//TODO
+La nouvelle cohésion de groupe et la compréhension totale de méthodologie agile.
 
 ### Faiblesses
 
-//TODO
+La seule faiblesse que notre groupe a eu est un petit souci de santé pour un de nos membres.
 
 # Objectif du prochain Sprint
 
