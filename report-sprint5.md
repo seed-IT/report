@@ -56,11 +56,16 @@ Notre projet est accessible à l'adresse suivante : <http://www.seed-it.eu/>
 
 ## Avancement technique
 
-A la fin de ce sprint nous nous sommes assuré que toutes les fonctionnalités du site étaient là, mais aussi que toute la sécurité était assez poussée pour protéger les données de nos utilisateurs. Nous avons mis en place un système de filtre afin d'aider les utilisateurs à grouper les différents types de graines. Ensuite, l'utilisateur peut voir les informations de la personne qui les a publiés. En fonction de son plan tarifaire, il pourra voir les informations de plus ou moins d'utilisateurs.
+A la fin de ce sprint nous nous sommes assuré que toutes les fonctionnalités du site étaient là, mais aussi que toute la sécurité était assez poussée pour protéger les données de nos utilisateurs.
+Nous avons mis en place un système de filtre afin d'aider les utilisateurs à grouper les différents types de graines.
+Ensuite, l'utilisateur peut voir les informations de la personne qui les a publiés.
+En fonction de son plan tarifaire, il pourra voir les informations de plus ou moins d'utilisateurs.
 
 ## Méthodologie et gestion d'équipe
 
-La gestion de l'équipe a fonctionné de la même manière que pendant le dernier sprint, en utilisant des taches bien spécifiques et en séparant toutes les fonctionnalités. Les réunions ont été beaucoup plus nombreuses afin d'augmenter le rythme de travail. L'utilisation du planner poker a de nouveau été mise en place car nous nous sommes rendu compte que grâce à cette pratique notre productivité montait en flèche.
+La gestion de l'équipe a fonctionné de la même manière que pendant le dernier sprint, en utilisant des taches bien spécifiques et en séparant toutes les fonctionnalités.
+Les réunions ont été beaucoup plus nombreuses afin d'augmenter le rythme de travail.
+L'utilisation du planner poker a de nouveau été mise en place car nous nous sommes rendu compte que grâce à cette pratique notre productivité montait en flèche.
 
 \pagebreak
 
@@ -141,7 +146,7 @@ Le nombre de points accordé est lié à la difficultée et, par conséquent, au
 
 Le dernier CSS mis en place en fin de Sprint 2 est _Responsive Design_ mais apparemment incompatible avec le service web même si totalement fonctionnel en local.
 Antoine Hoebaer est en charge de l'évolution du CSS en attendant que la version finale du site web soit créé.
-Lors des derniers Sprint, les _Sprint 4 et 5_, le CSS à été intégralement pris en main et est à 80% _Responsive Design_ mais surtout, il est intégralement accessible pour les personnes mal-voyantes ou nécessitant le mode d'accessibilité.
+Lors des derniers Sprint, les _Sprint 4 et 5_, le CSS à été intégralement pris en main par Hymed Boussaklatan et est à 80% _Responsive Design_ mais surtout, il est intégralement accessible pour les personnes mal-voyantes ou nécessitant le mode d'accessibilité.
 
 * BUG : CSS final du site web adapté à la nouvelle architecture du site web _(Sprint 4-5, 3 points)_
   * _**Responsable :**_ Hymed Boussaklatan
@@ -154,9 +159,6 @@ Lors des derniers Sprint, les _Sprint 4 et 5_, le CSS à été intégralement pr
 \pagebreak
 
 # Timesheet
-
-Les autres membres du groupe ont travaillé mais n'ont pas fourni à temps leur timesheet.
-Cela sera reglé pour le prochain Sprint.
 
 | Nom | Date | Durée | Description |
 |-----|------|-------|-------------|
@@ -196,6 +198,8 @@ Cela sera reglé pour le prochain Sprint.
 | Nathan | 04/12/2019 | 00:36:13 | Vérification des fichiers |
 | Antoine | 04/12/2019 | 05:00:00 | correction affichage des prix + création page web RGPD |
 | Nathan | 04/12/2019 | 01:00:00 | Page confirmation |
+| Melvin | 04/12/2019 | 01:11:42 | Clean token of DDNS (Duck DNS) |
+| Melvin & Constantin | 04/12/2019 | 01:30:00 | Rapport Sprint 5 |
 
 ## Réunions
 
@@ -265,11 +269,13 @@ La colorimétrie correspond au test de personnalité DISC et comme vous pouvez l
 
 ## Estimation de la vélocité de l'équipe
 
-La cohésion de l'équipe est très bonne maintenant et cela engendre également une atmosphère de travail optimale. Notre analyse montre que nous avons fait 20% plus de taches ce sprint que dans les sprints précédents.
+La cohésion de l'équipe est très bonne maintenant et cela engendre également une atmosphère de travail optimale.
+Notre analyse montre que nous avons fait 20% plus de taches ce sprint que dans les sprints précédents.
 
 ## Forces et faiblesses du sprint précédent et mesures prises
 
-Comme décrit plus haut, nous avons mis en place plus de réunions et réutilisé le poker-planner. Ces changements ont augmenté la productivité perdue lors du sprint précèdent. 
+Comme décrit plus haut, nous avons mis en place plus de réunions et réutilisé le poker-planner.
+Ces changements ont augmenté la productivité perdue lors du sprint précèdent.
 
 ### Forces
 
@@ -282,5 +288,4 @@ La seule faiblesse que notre groupe a eu est un petit souci de santé pour un de
 # Objectif du prochain Sprint
 
 Il n'y a plus de Sprint de prévu.
-
 Nous présenterons la version finale du projet lors de la défense du projet d'intégration.
